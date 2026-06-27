@@ -1,0 +1,23 @@
+{
+  "name": "FakeBuster",
+  "description": "An agent that analyzes job and internship postings for scams, phishing, typosquatting, ghost jobs, bait-and-switch tactics, and other hiring risks using real-time web research, then returns a safety score and clear recommendation.",
+  "metadata": {
+    "ls_user_id": "b7b27577-4d2d-4159-9d15-5a9ed671a0c7",
+    "organization_id": "181cdaf1-6c07-43a8-bffb-fc81b70d64a7",
+    "tenant_id": "c467c472-313f-46b0-875c-8133d3317160"
+  },
+  "config": {
+    "configurable": {
+      "should_trace_inputs_outputs": false,
+      "triggers_paused": false,
+      "skip_memory_write_protection": false,
+      "tools_url": "https://tools.langchain.com",
+      "llm_model_config": {
+        "modelId": "langchain:default"
+      },
+      "backend_type": "default",
+      "sandbox_snapshot_id": "",
+      "visibility_scope": "user"
+    }
+  }
+}
